@@ -1,0 +1,54 @@
+/* Style for Main Background  */
+.bg-homepage-cover {
+    background-image    :   url('../image/bg.png');
+    background-size: cover;
+}
+
+/* Homepage form  */
+.form-container {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Global primary style  */
+.audin-primary-bg {
+    background: #102032;
+    color:#fff;
+}
+
+.progress-bar {
+    height: 2rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
+
+label#feedback-error {
+    color: red;
+}
+label#review-error {
+    color: red;
+}

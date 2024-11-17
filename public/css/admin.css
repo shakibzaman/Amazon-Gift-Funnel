@@ -1,0 +1,49 @@
+.pagination {
+    /* display: inline-block; */
+    margin: 0;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li a, .pagination li span {
+    padding: 10px 15px;
+    margin-left: -1px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    background-color: #eee;
+    color: #23527c;
+}
+
+.pagination li.active span {
+    background-color: #337ab7;
+    color: white;
+    border-color: #337ab7;
+}
+
+.star-rating .fa-star {
+    color: black; /* Default color for outline stars */
+}
+.star-rating .fa-star.filled {
+    color: red; /* Color for solid stars */
+}
+
+/* Menu Search bar  */
+.sidebar .input-group {
+    display: none !important;
+}
+
+.row-background {
+    background: url('/image/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    z-index: -1; /* Ensure content appears above the background */
+}
