@@ -1,6 +1,6 @@
 # Gift Funnel Project
 
-Welcome to the Gift Funnel project developed by **Betatech**.
+Welcome to the Gift Funnel project developed by Shakib Uz Zaman.
 
 ## Project Languages & Tools
 
@@ -15,7 +15,7 @@ Welcome to the Gift Funnel project developed by **Betatech**.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://shakib@bitbucket.org/betatechco/gift-funnel.git
+    git clone https://github.com/shakibzaman/Amazon-Gift-Funnel.git
 
     ```
 
